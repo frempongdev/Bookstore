@@ -1,70 +1,211 @@
-# Getting Started with Create React App
+# 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 
 
-## Available Scripts
+<a name="readme-top"></a>
 
-In the project directory, you can run:
 
-### `npm start`
+<div align="center">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <img src="https://thumbs.dreamstime.com/b/bookstore-sign-over-entrance-books-shop-window-shelves-street-store-vector-illustration-flat-style-196780863.jpg" alt="logo" width="160"  height="auto" />
+  <br/>
+   <br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h1><b> Bookstore 📚📚📚</b></h1>
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
 
-### `npm run build`
+# 📗 Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- DEPLOYMENT -->
+<!-- ### This project goes live [here](https://frempongdev.github.io/Awesome-Books/) 🚀 .
+If link does not work copy URL ( https://frempongdev.github.io/Awesome-Books/ ) -->
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- DEPLOYMENT -->
+<!-- ### Have a look at the project's video presentation [here](https://www.loom.com/share/1f7de2b9345a4d3988c6327952899d30) 📽️ . -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- PROJECT DESCRIPTION -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 📖 [ Bookstore ] <a name="about-project"></a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Bookstore** is a single page application that helps users to keep track of their reading. It saves Book details and progress that users an easily interract with by adding, removing or updating. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠 Built With <a name="built-with"></a>
 
-### Code Splitting
+### Tech Stack <a name="tech-stack"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link to HTML</a></li>
+  </ul>
+</details>
 
-### Analyzing the Bundle Size
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Link to CSS</a></li>
+  </ul>
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<details>
+  <summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">Link to Javascript</a></li>
+  </ul>
+</details>
 
-### Making a Progressive Web App
+<details>
+  <summary>React</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">Link to React</a></li>
+  </ul>
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+<!-- Features -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Key Features <a name="key-features"></a>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **This Project has a Readme.md file**
+- **This Project has a gitignore file**
+- **This projects follows all Microverse Linters**
+- **This project takes user inputs of Book title and Author**
+- **This project displays the details for Book (title, author, and completion progress)**
+- **This project saves and fetsches Book details from an API**
+- **This project saves the Book details inside the Browser**
+- **This project has syntax with ES6 format.**
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need to copy the link of this Repository.
+
+
+
+```sh
+ https://github.com/frempongdev/Bookstore.git
+```
+<br>
+
+### Setup
+
+Clone this repository to your desired directory using the command: 
+
+
+```sh
+  cd your-folder
+  git clone https://github.com/frempongdev/Bookstore.git 
+```
+
+<br>
+
+
+### Usage
+
+Kindly go ahead and give this project a massage but do not forget to give a detailed description in your pull request.
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- AUTHORs -->
+
+## 👥 Author <a name="authors"></a>
+### 👥 Frempong
+
+- GitHub: [@frempongdev](https://github.com/frempongdev)
+- Twitter: [@knobaddy](https://twitter.com/knobaddy)
+- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/samuel-knower-amankwaa-frempong-356802256/)
+
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Use of State instead of Props for Book details]**
+- [ ] **[Category Section]**
+- [ ] **[Complete Page Styling]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## :handshake: Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project kindly support by suggesting changed by forking and pull requests
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank  everyone who inspired me to learn programming. Regards to the whole Microverse team, Peers, and family supporting. 
+<!-- <br>A massive Thank You to [Cindy Shin](https://www.behance.net/adagio07) who is the original designer of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](license) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
