@@ -1,0 +1,16 @@
+.bookDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.removeBook {
+  width: 4%;
+  margin-top: 0.3%;
+
+  /* padding: 0.5%; */
+}

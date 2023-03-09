@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.navs {
+  display: flex;
+  align-items: center;
+}
+
+.navs > * {
+  margin-left: 5%;
+  list-style: none;
+}
