@@ -1,6 +1,7 @@
 import React from 'react';
 import Book from './Book';
 import '../styles/Books.css';
+import BookForm from './BookForm';
 
 const Books = () => (
   <div>
@@ -12,13 +13,7 @@ const Books = () => (
       </ul>
     </div>
     <div>
-      <form>
-        <h3>ADD NEW BOOK</h3>
-        <input placeholder="Book Title" type="input" />
-        <input placeholder="Author" type="input" />
-        <input type="submit" value="Add Book" />
-      </form>
-
+      <BookForm />
     </div>
   </div>
 );
