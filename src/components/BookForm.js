@@ -12,13 +12,17 @@ const BookForm = () => {
     <div>
       <form>
         <h3>ADD NEW BOOK</h3>
-        <input placeholder="Book Title" type="input" value={title} onChange={(e) => setTitle(e.target.value)} />
-        <input placeholder="Author" type="input" value={author} onChange={(e) => setAuthor(e.target.value)} />
+        <input required placeholder="Book Title" type="input" value={title} onChange={(e) => setTitle(e.target.value)} />
+        <input required placeholder="Author" type="input" value={author} onChange={(e) => setAuthor(e.target.value)} />
         <button
           type="button"
           onClick={() => {
-            const item_id = books.length + 1;
-            dispatch(addBook({ item_id, title, author }));
+            if (title && author) {
+              const item_id = books.length + 1;
+              dispatch(addBook({ item_id, title, author }));
+              setTitle('');
+              setAuthor('');
+            }
           }}
         >
           Add Book
