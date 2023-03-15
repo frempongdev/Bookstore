@@ -1,18 +1,21 @@
 const bookArray = [
   {
-    id: 1,
-    title: 'The Hunger Games',
-    authur: 'Suzanne Collins',
+    item_id: 'item1',
+    title: 'The Great Gatsby',
+    author: 'John Smith',
+    category: 'Fiction',
   },
   {
-    id: 2,
-    title: 'Dune',
-    authur: 'Frank Herbert',
+    item_id: 'item2',
+    title: 'Anna Karenina',
+    author: 'Leo Tolstoy',
+    category: 'Fiction',
   },
   {
-    id: 3,
-    title: 'Capital in the 21st Century',
-    authur: 'Suzanne Collins',
+    item_id: 'item3',
+    title: 'The Selfish Gene',
+    author: 'Richard Dawkins',
+    category: 'Nonfiction',
   },
 ];
 export default bookArray;
