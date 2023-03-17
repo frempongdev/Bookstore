@@ -1,14 +1,57 @@
+.bookContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 1%;
+  padding: 0.5% 3%;
+}
+
+.bookContainer > * {
+  width: 33.33%;
+  border: red solid 1px;
+}
+
 .bookDetails {
   display: flex;
   flex-direction: column;
 }
 
-.bookTitle {
-  font-size: 1.5rem;
-  font-weight: 500;
+.bookCategory {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.5;
 }
 
-.removeBook {
-  width: 6%;
+.bookTitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.bookAuthor {
+  font-family: 'RobotoSlab', serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.bookBtns {
+  display: flex;
+}
+
+.bookBtns > * {
+  border: none;
+  background: none;
+  padding: 0%;
+  margin-right: 1%;
+  color: #4386bf;
+  font-family: 'Roboto Slab', serif;
   margin-top: 0.3%;
 }
+.btnDivider {
+  background-color: rgb(228, 228, 228);
+  height: 1.5rem;
+  width: 0.125rem;
+
+}
+
