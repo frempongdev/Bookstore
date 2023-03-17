@@ -1,17 +1,46 @@
 nav {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5.5%;
+}
+
+.navLeft {
+  display: flex;
+  justify-content: start;
+  width: 39%;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #0290ff;
+  margin-right: 8%;
 }
 
 .navs {
+  font-size: 0.9rem;
+  font-weight: 300;
+  width: 25%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 0%;
 }
 
 .navs > * {
-  margin-left: 5%;
   list-style: none;
+}
+
+.navLink {
+  color: rgb(118, 118, 118);
+  text-decoration: none;
+}
+
+.profile {
+  color: #0290ff;
+  width: 2.5rem;
+  height: 2.5rem;
 }
