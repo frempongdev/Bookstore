@@ -1,17 +1,45 @@
 nav {
   display: flex;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  /* border: grey solid 0.5px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5.5%;
+}
+
+.navLeft {
+  display: flex;
+  justify-content: space-between;
+  /* border: greenyellow solid 1px; */
+  width: 40%;
 }
 
 h1 {
   font-size: 2rem;
+  color: #0290ff;
 }
 
 .navs {
+  width: 35%;
   display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  /* border: solid violet;  display: flex; */
   align-items: center;
 }
 
 .navs > * {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   list-style: none;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.profile {
+  color: #0290ff;
+  width: 2.5rem;
+  height: 2.5rem;
 }
