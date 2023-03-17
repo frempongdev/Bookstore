@@ -52,6 +52,31 @@
   background-color: rgb(228, 228, 228);
   height: 1.5rem;
   width: 0.125rem;
-
 }
 
+.progress {
+  display: flex;
+  align-items: center;
+}
+
+.progressImg {
+  height: 4.25rem;
+  /* width: 4.25rem; */
+}
+
+.progressInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.progressNum {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.completed {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}

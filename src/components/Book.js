@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
+import progressImg from '../assets/progressBar.png';
 import { removeBook, removeBookFromAPI } from '../redux/books/bookSlice';
 import '../styles/Book.css';
 
@@ -34,10 +35,11 @@ const Book = ({
       </div>
       <div className="bookMid">
         <div className="progress">
-          <div className="progress-circle" />
-
-          64%
-          <span className="completed">Completed</span>
+          <img className="progressImg" src={progressImg} alt="" />
+          <div className="progressInfo">
+            <span className="progressNum">64%</span>
+            <span className="completed">Completed</span>
+          </div>
         </div>
       </div>
       <div className="bookRight">
