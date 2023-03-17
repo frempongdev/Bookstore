@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addBook, addBookToAPI } from '../redux/books/bookSlice';
 
 const BookForm = () => {
-  // const { books } = useSelector((state) => state.books);
   const { categories } = useSelector((state) => state.categories);
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
@@ -19,7 +18,6 @@ const BookForm = () => {
           type="button"
           onClick={() => {
             if (title && author) {
-              // const item_id = books.length + 1;
               const category = categories[Math.floor(Math.random() * categories.length)];
               dispatch(addBook({
                 item_id: crypto.randomUUID(), title, author, category,

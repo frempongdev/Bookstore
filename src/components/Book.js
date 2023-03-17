@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 import { removeBook, removeBookFromAPI } from '../redux/books/bookSlice';
 import '../styles/Book.css';
 
-// eslint-disable-next-line camelcase, react/prop-types
 const Book = ({
   title, author, id, category,
 }) => {
