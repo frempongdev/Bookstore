@@ -3,7 +3,6 @@ nav {
   display: flex;
   background-color: white;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-  /* border: grey solid 0.5px; */
   justify-content: space-between;
   align-items: center;
   padding: 0% 5.5%;
@@ -11,29 +10,27 @@ nav {
 
 .navLeft {
   display: flex;
-  justify-content: space-between;
-  /* border: greenyellow solid 1px; */
-  width: 45%;
+  justify-content: start;
+  width: 39%;
 }
 
 h1 {
   font-size: 1.8rem;
   color: #0290ff;
+  margin-right: 8%;
 }
 
 .navs {
   font-size: 0.9rem;
   font-weight: 300;
-  width: 35%;
+  width: 25%;
   display: flex;
   justify-content: space-between;
-  padding: 0%;
-  /* border: solid violet;  display: flex; */
   align-items: center;
+  padding: 0%;
 }
 
 .navs > * {
-  /* margin-left: 5%; */
   list-style: none;
 }
 

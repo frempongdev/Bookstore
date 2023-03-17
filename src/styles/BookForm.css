@@ -1,40 +1,37 @@
 form {
-    padding: 0% 5.5%;
-    margin-top: 4%;
+  padding: 0% 5.5%;
+  margin-top: 4%;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .inputs {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .titleField {
-    width: 50%;
-    padding: 1% 2%;
-    border: 2px solid rgba(196, 196, 196, 0.5);
-
+  width: 50%;
+  padding: 1% 2%;
+  border: 2px solid rgba(196, 196, 196, 0.5);
 }
 
 .authorField {
-    width: 25%;
-    padding: 1% 2%;
-    border: 2px solid rgba(196, 196, 196, 0.5);
-
-
+  width: 25%;
+  padding: 1% 2%;
+  border: 2px solid rgba(196, 196, 196, 0.5);
 }
 
 .addBtn {
-    width: 10%;
-    border: none;
-    background-color: #0290ff;
-    color: white;
-    border-radius: 3px;
-    padding: 1% 2%;
+  width: 10%;
+  border: none;
+  background-color: #0290ff;
+  color: white;
+  border-radius: 3px;
+  padding: 1% 2%;
 }

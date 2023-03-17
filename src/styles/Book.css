@@ -5,7 +5,6 @@
   margin-bottom: 1%;
   padding: 0.5% 3%;
   border: 2px solid rgba(211, 211, 211, 0.5);
-
 }
 
 .bookContainer > * {
@@ -49,6 +48,7 @@
   font-family: 'Roboto Slab', serif;
   margin-top: 0.3%;
 }
+
 .btnDivider {
   background-color: rgb(228, 228, 228);
   height: 1.5rem;
@@ -62,7 +62,8 @@
 
 .progressImg {
   height: 4.25rem;
-  margin-right: 2%;}
+  margin-right: 2%;
+}
 
 .progressInfo {
   display: flex;
