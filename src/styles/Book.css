@@ -61,8 +61,7 @@
 
 .progressImg {
   height: 4.25rem;
-  /* width: 4.25rem; */
-}
+  margin-right: 2%;}
 
 .progressInfo {
   display: flex;
@@ -79,4 +78,46 @@
   font-size: 0.8rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+}
+
+.bookRight {
+  display: flex;
+}
+
+.chapDivider {
+  width: 0.125rem;
+  height: 4.375rem;
+  margin-right: 10%;
+}
+
+.chapBox {
+  width: 50%;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+  font-weight: 300;
+}
+
+.currChapter {
+  font-size: 0.8rem;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 1%;
+}
+
+.chapterInfo {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.upChapBtn {
+  font-family: 'Roboto Slab', serif;
+  padding: 1% 4%;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 3px;
+  color: white;
 }

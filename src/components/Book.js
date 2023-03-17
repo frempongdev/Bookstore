@@ -43,11 +43,14 @@ const Book = ({
         </div>
       </div>
       <div className="bookRight">
-        <div className="chapter">
-          <span className="currChapter">CURRENT CHAPTER</span>
-          <span className="currChapter">Chapter 2</span>
+        <div className="chapDivider" />
+        <div className="chapBox">
+          <div className="chapter">
+            <span className="currChapter">CURRENT CHAPTER</span>
+            <span className="chapterInfo">Chapter 2</span>
+          </div>
+          <button type="button" className="upChapBtn">UPDATE PROGRESS</button>
         </div>
-        <button type="button" className="upChapBtn">UPDATE PROGRESS</button>
       </div>
     </div>
   );
