@@ -1,6 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-// import { async } from 'q';
-// import bookArray from '../../components/booksource';
+
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/Z4E41JcNjDjqcHOp3ggg/books';
 
 const initialState = {
@@ -11,8 +10,13 @@ const initialState = {
 
 export const fetchBooks = createAsyncThunk('books/fetchBooks', async () => {
   const response = await fetch(url);
-  console.log(response);
-  return response;
+  const promiseResponse = await response.json();
+  const objectReturn = Object.keys(promiseResponse).map((key) => ({
+    item_id: key,
+    ...promiseResponse[key][0],
+  }));
+
+  return objectReturn;
 });
 
 export const addBookToAPI = createAsyncThunk('books/addBookToAPI', async (newbook) => {
@@ -57,7 +61,6 @@ const bookSlice = createSlice({
       .addCase(fetchBooks.fulfilled, (state, action) => ({ ...state, status: 'succeeded', books: action.payload }))
       .addCase(fetchBooks.rejected, (state, action) => ({ ...state, status: 'failed', error: action.error.message }))
       .addCase(addBookToAPI.fulfilled, (state) => ({ ...state }))
-      // state.books.push(action.payload);)
       .addCase(removeBookFromAPI.fulfilled, (state, action) => ({
         ...state,
         books: state.books.filter((book) => book.item_id !== action.payload),
