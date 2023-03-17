@@ -4,11 +4,12 @@
   background-color: white;
   margin-bottom: 1%;
   padding: 0.5% 3%;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+
 }
 
 .bookContainer > * {
   width: 33.33%;
-  border: red solid 1px;
 }
 
 .bookDetails {
@@ -85,6 +86,8 @@
 }
 
 .chapDivider {
+  background-color: rgb(180, 180, 180);
+  opacity: 0.5;
   width: 0.125rem;
   height: 4.375rem;
   margin-right: 10%;
