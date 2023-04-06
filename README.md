@@ -35,8 +35,8 @@
 <br>
 
 <!-- DEPLOYMENT -->
-<!-- ### This project goes live [here](https://frempongdev.github.io/Awesome-Books/) 🚀 .
-If link does not work copy URL ( https://frempongdev.github.io/Awesome-Books/ ) -->
+### This project goes live [here](https://booklibrary-store.netlify.app/) 🚀 .
+If link does not work copy URL ( https://booklibrary-store.netlify.app/ )
 
 <br>
 
